@@ -14,4 +14,5 @@ index = input_to_index(input)
 
 puts "What character would you like to enter?"
 character = gets.strip
-display_board(move(board, index, character))
+move(board, index, character)
+display_board(board)
