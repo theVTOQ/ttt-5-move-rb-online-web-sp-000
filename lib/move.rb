@@ -13,5 +13,5 @@ end
 
 def move(board, index, character="X")
   board[index] = character
-  board
+  return board
 end
